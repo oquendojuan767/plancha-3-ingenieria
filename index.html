@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#10284f" />
+  <meta name="description" content="Plancha 3 al Consejo de Facultad de Ingeniería de la Institución Universitaria Pascual Bravo. Conoce nuestras propuestas y comparte tus ideas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Plancha 3 · Ingeniería | Pascual Bravo" />
+  <meta property="og:description" content="Escuchar. Conectar. Proponer. Conoce nuestras propuestas y cuéntanos qué mejorarías." />
+  <meta property="og:image" content="assets/compartir.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="contenido.js" defer></script>
+  <script src="app.js" defer></script>
+  <title>Plancha 3 · Consejo de Facultad de Ingeniería</title>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="announcement" id="inicio"><span class="pulse-dot"></span> ELECCIONES ESTUDIANTILES <span class="announcement-divider">/</span> FACULTAD DE INGENIERÍA</div>
+  <header class="site-header">
+    <div class="container nav-layout">
+      <a class="brand" href="#inicio" aria-label="Plancha 3, ir al inicio"><span class="brand-icon">P<span>3</span></span><span class="brand-name">PLANCHA <strong>03</strong><small>Ingeniería · Pascual Bravo</small></span></a>
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="nav-links" aria-label="Navegación principal">
+        <a href="#propuestas">Propuestas</a>
+        <a href="#equipo">Quiénes somos</a>
+        <a class="nav-button" href="#participa">Comparte tu idea <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero-shape" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="star-mini">✳</span> CANDIDATURA ESTUDIANTIL · PLANCHA 3</div>
+          <h1 id="titular">Que tu voz <span class="underline-accent">impulse</span> la ingeniería.</h1>
+          <p class="hero-lead" id="descripcion">Queremos una representación que escuche, conecte oportunidades y convierta las ideas en propuestas con seguimiento.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#propuestas">Conoce las propuestas <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#participa">Quiero participar <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-bottom"><span class="mini-line"></span><span>CONSEJO DE FACULTAD DE INGENIERÍA</span><span id="fecha-votacion" hidden></span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-image-back" aria-hidden="true"></div>
+          <div class="hero-image-wrap"><img src="assets/equipo.jpg" width="950" height="1080" fetchpriority="high" alt="Los dos integrantes de la Plancha 3, frente al emblema del Pascual Bravo" /></div>
+          <div class="sticker sticker-top"><span>PLANCHA</span><strong>03</strong></div>
+          <div class="sticker sticker-bottom">HECHO POR ESTUDIANTES<br /><strong>PARA ESTUDIANTES</strong><span aria-hidden="true"> ✳</span></div>
+          <svg class="hero-doodle" viewBox="0 0 152 117" aria-hidden="true"><path d="M5 74C34 29 79 25 120 42M101 15l19 27-35 2" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 90l-11 10m40-8v15m35-13 9 11" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+    </section>
+    <section class="bridge-band" aria-label="Principios de nuestra candidatura"><div class="container bridge-inner"><span>ESCUCHAR <b>✳</b></span><span>CONECTAR <b>✳</b></span><span>PROPONER <b>✳</b></span><span>HACER SEGUIMIENTO <b>✳</b></span></div></section>
+    <section class="proposals section-pad" id="propuestas">
+      <div class="container">
+        <div class="section-heading"><div><span class="section-kicker">01 / LO QUE PROPONEMOS</span><h2>Cinco ideas.<br /><em>Un mismo propósito.</em></h2></div><p>Propuestas concretas para representar las necesidades estudiantiles e impulsar iniciativas desde las competencias del Consejo de Facultad.</p></div>
+        <div class="proposal-grid" id="lista-propuestas"><!-- tarjetas creadas desde contenido.js --></div>
+        <p class="scope-note"><span class="note-star">✳</span> <strong>Proponer también es ser responsables.</strong> Un representante no puede prometer empleos, aprobar convenios ni cambiar reglamentos por su cuenta. Sí puede escuchar, presentar iniciativas, articular con las dependencias y hacer seguimiento.</p>
+      </div>
+    </section>
+    <section class="process section-pad" id="metodo"><div class="container"><div class="process-heading"><span class="section-kicker light">02 / NUESTRA FORMA DE TRABAJAR</span><h2>Que las ideas no<br />se queden en <em>ideas.</em></h2></div><div class="process-grid"><article class="step"><span class="step-no">01 <span aria-hidden="true">↗</span></span><h3>Escuchamos</h3><p>Recogemos inquietudes y propuestas de los diferentes programas de ingeniería.</p></article><article class="step"><span class="step-no">02 <span aria-hidden="true">↗</span></span><h3>Priorizamos</h3><p>Organizamos los temas según su alcance, recurrencia y posibilidad de gestión.</p></article><article class="step"><span class="step-no">03 <span aria-hidden="true">↗</span></span><h3>Hacemos seguimiento</h3><p>Llevamos los asuntos a los espacios competentes e informamos sobre sus avances.</p></article></div></div></section>
+    <section class="team section-pad" id="equipo"><div class="container"><div class="section-heading team-heading"><div><span class="section-kicker">03 / QUIÉNES SOMOS</span><h2>Dos estudiantes.<br /><em>Muchas ganas de sumar.</em></h2></div><p>Queremos que conozcas a las personas detrás de la Plancha 3. Nuestras trayectorias son distintas; el compromiso es construir una representación cercana y transparente.</p></div><div class="team-grid" id="lista-integrantes"><!-- perfiles desde contenido.js --></div></div></section>
+    <section class="participation section-pad" id="participa"><div class="container participation-layout"><div class="participation-copy"><span class="section-kicker">04 / TU VOZ IMPORTA</span><h2 id="participacion-titulo">La Facultad también se construye <em>contigo.</em></h2><p id="participacion-texto">¿Qué mejorarías de la experiencia académica? Queremos escucharte.</p><div class="question-list"><span>¿Qué deberíamos mejorar?</span><span>¿Qué propuesta te gustaría impulsar?</span><span>¿Qué problema necesita ser escuchado?</span></div><div class="little-note"><span aria-hidden="true">✳</span> Tu opinión importa. Comparte tus ideas para construir juntos.</div></div><div class="form-card" id="formulario-contenedor" aria-live="polite"><!-- formulario o mensaje de configuración --></div></div></section>
+    <section class="end-cta"><div class="container"><div class="end-card"><div><span class="small-overline">CONSEJO DE FACULTAD DE INGENIERÍA</span><h2>Que tu voz impulse<br /><em>la ingeniería.</em></h2><p>Plancha 3 · Escuchar. Conectar. Proponer.</p></div><a class="btn btn-primary btn-light" href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a><span class="end-star" aria-hidden="true">✳</span></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-grid"><div><strong>PLANCHA 03 <span>✳</span> INGENIERÍA</strong><p>Una iniciativa estudiantil para dialogar y proponer.</p></div><p class="footer-note">Sitio de una candidatura estudiantil independiente. No es un canal oficial de la Institución Universitaria Pascual Bravo. Las respuestas del formulario, cuando esté activado, son gestionadas por Google Forms según su configuración.</p><a href="#inicio" class="footer-top">Volver arriba ↑</a></div></footer>
+</body>
+</html>

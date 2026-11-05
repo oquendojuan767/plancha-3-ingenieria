@@ -1,0 +1,19 @@
+PLANCHA 3 - LANDING GRATIS
+=======================================
+
+1) Abre index.html para ver la landing en tu computador.
+2) Abre contenido.js con Bloc de notas. Completa nombres,
+   carreras, historias y, si ya la tienes, fecha de votacion.
+3) Crea un formulario gratuito en forms.google.com.
+   Pega el enlace que aparece en "Insertar HTML" en la clave
+   googleFormulario de contenido.js.
+4) Entra a github.com/new y crea el repositorio publico
+   plancha-3-ingenieria.
+5) Descomprime el ZIP, sube TODOS los archivos y la carpeta
+   assets al repositorio. index.html debe quedar en la raiz.
+6) Configura Settings -> Pages -> Deploy from a branch ->
+   main -> /(root) -> Save.
+7) Comprueba la URL desde el celular. Despues generamos
+   el QR definitivo para el afiche.
+
+LEE LEEME_PRIMERO.md PARA LAS INSTRUCCIONES DETALLADAS.
