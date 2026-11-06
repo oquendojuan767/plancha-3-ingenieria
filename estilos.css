@@ -29,3 +29,48 @@
 .end-star {
   display: none;
 }
+
+
+/* Guia de votacion SICAU */
+.vote-guide {
+  background: #fcf8ee;
+}
+
+.vote-guide-layout {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.vote-guide-copy h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  margin: 18px 0;
+}
+
+.vote-guide-copy > p {
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.vote-guide-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 2px solid #10284f;
+}
+
+.vote-guide-note {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .vote-guide-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
